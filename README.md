@@ -1,4 +1,4 @@
-# entangled-poly-dyn
+# Polymer Dynamics and Entanglement
 **[Description]**
 
 Monte Carlo polymer random walk simulations in space/time with entanglement dynamics. Used to explore time evolution of entangled/unentangled chains (see 'Context').
