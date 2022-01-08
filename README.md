@@ -1,9 +1,9 @@
 # entangled-poly-dyn
-[Description]
+**[Description]**
 
 Monte Carlo polymer random walk simulations in space/time with entanglement dynamics. Used to explore time evolution of entangled/unentangled chains (see 'Context').
 
-[Theory Considerations]
+**[Theory Considerations]**
 
 Key assumptions are hardcoded as below.
 
@@ -17,7 +17,7 @@ Key assumptions are hardcoded as below.
 
 Factors such as inter-chain interactions are ignored, only entanglement is considered and investigated. Can potentially be reused for further/alternative dynamics investigations. 
 
-[Analysis]
+**[Analysis]**
 
 Statistical analyses are done using a mean squared displacement routine. 2 are provided. 
 
@@ -27,10 +27,10 @@ Statistical analyses are done using a mean squared displacement routine. 2 are p
 
 Later data points have inherently more uncertainty so averaging required for meaningful analysis.
 
-[Computation]
+**[Computation]**
 
 Time scales exponentially relative to input. Parallel computation recommended for longer simulations, using Routine 1 or averaged runs. Time evolution recommended to be translated to C++ for faster runtime.
 
-[Context]
+**[Context]**
 1. https://pubs.acs.org/doi/abs/10.1021/acs.macromol.9b02428
 2. https://aip.scitation.org/doi/10.1063/1.458541
