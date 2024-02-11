@@ -29,7 +29,7 @@ Later data points have inherently more uncertainty so averaging required for mea
 
 ## Computation
 
-Time scales exponentially relative to input. Parallel computation recommended for longer simulations, using Routine 1 or averaged runs. Time evolution recommended to be translated to C++ for faster runtime.
+Time scales exponentially relative to input. Parallel computation recommended for longer simulations, using Routine 1 or averaged runs. Time evolution recommended to be translated to C++ for better computational runtime, though the 'Numba' JIT compiler is employed for this work.
 
 ## Context
 
